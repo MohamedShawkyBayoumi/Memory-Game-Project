@@ -159,6 +159,24 @@
 
     }
 
+    .m-content {
+        width: 50%;
+    }   
+
 
 
 }
+
+
+
+@media screen and (min-width: 370px) and (max-width: 540px){
+    .m-content {
+        width: 80%;
+    }
+
+    .modal {
+        padding-top: 190px;
+    }
+}
+
+

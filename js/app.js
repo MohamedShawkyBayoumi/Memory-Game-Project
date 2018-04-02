@@ -45,9 +45,9 @@ function starC (parameter){
 	for(var x=0; x < starArray.length; x++){
 		starsUl.appendChild(starArray[x]);
 	}
-	if(movesCounter === 2){
+	if(movesCounter === 16){
 		starArray.splice(0,1);
-	} else if (movesCounter === 4){
+	} else if (movesCounter === 24){
 		starArray.splice(0,1);
 	}
 }
